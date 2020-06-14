@@ -1,0 +1,48 @@
+/* font-family: 'Metal Mania', cursive; */
+/* font-family: 'Montserrat', sans-serif; */
+body {
+  display: block;
+  background-image: url(https://miro.medium.com/max/8976/0*-W5Tox18b2v--jth);
+  /* background-position: left; */
+  background-size: cover;
+  /* margin:auto; */
+  /* text-align: center; */
+}
+li {
+  margin:auto;
+}
+
+h1, h3 {
+  font-family: 'Metal Mania', cursive;
+}
+td {
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  object-fit: scale-down;
+  margin: 0px;
+}
+h1 {
+  font-size: 50px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  /* background-color: pink; */
+  padding-top:20px;
+
+}
+#instructions {
+  display : flex;
+  flex-direction: column;
+  background-color:
+  /* align-content: center; */
+  /* flex-wrap: wrap; */
+}
+#grid {
+  margin: auto;
+}

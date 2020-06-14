@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Escape the Woods!</title>
+    <link rel="icon" href="https://svgsilh.com/svg/2027169.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="treasurehunt.css">
+  </head>
+  <body>
+  <div class="banner">
+    <h1 id="top">Out of the woods we go! </h1>
+  </div>
+      <!-- <img src="https://media.defense.gov/2016/Jun/23/2001558386/780/780/0/160621-F-ZC075-092.JPG" height="200px"> -->
+<!--  click on square until you find the treasure -->
+<!-- you lose when you find a bomb -->
+<!--  if you rub out of turns, restart game (decide result later) -->
+
+    <ol id="instructions">
+      <li>Click on the squares until you find a main road and hitch a ride to escape the killer in the woods.</li>
+      <li>Your journey will end if the killer finds you. </li>
+      <li>If you don't find a ride, you will be lost in the woods forever!</li>
+    </ol>
+
+    <table id="grid" border="1">
+      <tr>
+        <td id="0" onclick="treasure(0)">?</td>
+        <td id="1" onclick="treasure(1)">?</td>
+        <td id="2" onclick="treasure(2)">?</td>
+        <td id="3" onclick="treasure(3)">?</td>
+        <td id="4" onclick="treasure(4)">?</td>
+      </tr>
+      <tr>
+        <td id="5" onclick="treasure(5)">?</td>
+        <td id="6" onclick="treasure(6)">?</td>
+        <td id="7" onclick="treasure(7)">?</td>
+        <td id="8" onclick="treasure(8)">?</td>
+        <td id="9" onclick="treasure(9)">?</td>
+      </tr>
+      <tr>
+        <td id="10" onclick="treasure(10)">?</td>
+        <td id="11" onclick="treasure(11)">?</td>
+        <td id="12" onclick="treasure(12)">?</td>
+        <td id="13" onclick="treasure(13)">?</td>
+        <td id="14" onclick="treasure(14)">?</td>
+      </tr>
+      <tr>
+        <td id="15" onclick="treasure(15)">?</td>
+        <td id="16" onclick="treasure(16)">?</td>
+        <td id="17" onclick="treasure(17)">?</td>
+        <td id="18" onclick="treasure(18)">?</td>
+        <td id="19" onclick="treasure(19)">?</td>
+      </tr>
+      <tr>
+        <td id="20" onclick="treasure(20)">?</td>
+        <td id="21" onclick="treasure(21)">?</td>
+        <td id="22" onclick="treasure(22)">?</td>
+        <td id="23" onclick="treasure(23)">?</td>
+        <td id="24" onclick="treasure(24)">?</td>
+      </tr>
+    </table>
+
+    <div class="banner">
+      <h3>Clicks left: <span id="counter"> 8 </span> </h3>
+    </div>
+    <div class="center">
+      <button type="button" onclick="location.reload()">Restart Game</button>
+    </div>
+
+    <footer class="center">
+      <!-- <a href="#top">Back to top</a> -->
+      <br>Miguel Palo Natalie Loranca</br>
+      <!-- <a href="https://www.learnacademy.org/" target="_blank">click here!</a> -->
+
+
+    </footer>
+
+    <script type="text/javascript" src="treasurehunt.js"></script>
+
+  </body>
+</html>
